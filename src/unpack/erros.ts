@@ -17,7 +17,7 @@ export const ERROR_CODES = {
 /**
  * Represents an extended Error object with a custom `code` property
  */
-interface EpubUnpackError extends Error {
+export interface EpubUnpackError extends Error {
   code: string;
   originalError?: Error;
 }

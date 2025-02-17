@@ -11,7 +11,7 @@ export const EPUB_DEFAULTS = {
   /** Minimum allowed file size in bytes (1 byte). */
   minFileSize: 1,
   /** Required file entries for a valid EPUB structure. */
-  requiredEntries: ["META-INF/container.xml"] as const,
+  requiredEntries: ["mimetype", "META-INF/container.xml"] as const,
 } as const;
 
 const MIME_TYPE_EXTENSIONS = {

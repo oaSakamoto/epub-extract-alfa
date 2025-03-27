@@ -1,3 +1,4 @@
+/* v8 ignore start */
 import { EPUB_DEFAULTS } from "@/unpack/config";
 
 export type EpubConfig = typeof EPUB_DEFAULTS;

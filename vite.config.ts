@@ -35,7 +35,9 @@ export default defineConfig({
     },
   },
   test: {
+    globals: true,
     watch: true,
+    environment: "jsdom",
   },
   resolve: {
     alias: [
